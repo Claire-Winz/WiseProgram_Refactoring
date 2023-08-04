@@ -10,15 +10,15 @@ public class View {
         return  sc.nextLine();
     }
 
-   public int intInput() {
+    public int intInput() {
         return sc.nextInt();
-   }
+    }
 
-   public void printOut(String out) {
+    public void printOut(String out) {
         System.out.print(out);
    }
 
-   public void printlnOut(String out) {
+    public void printlnOut(String out) {
        System.out.println(out);
-   }
+    }
 }
