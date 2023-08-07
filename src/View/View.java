@@ -4,6 +4,19 @@ import java.util.Scanner;
 
 public class View {
 
+    private static View instance;
+
+    private View() {
+
+    }
+
+    public static View getInstance() {
+        if (instance == null) {
+            instance = new View();
+        }
+        return instance;
+    }
+
     Scanner sc = new Scanner(System.in);
 
     public String stringInput() {

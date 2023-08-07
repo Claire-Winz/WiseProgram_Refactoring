@@ -36,7 +36,7 @@ public class Entity {
         this.author = author;
     }
 
-    public String getOutFormat() {
+    public String toString() {
         return numId + " / " + author + " / " + wise;
     }
 }

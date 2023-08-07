@@ -9,7 +9,7 @@ public class DAO {
 
     ArrayList<Entity> wiseList = new ArrayList<Entity>();
 
-    View view = new View();
+    View view = View.getInstance();
 
     private int count = 1;
     private String wise;
@@ -41,7 +41,7 @@ public class DAO {
 
         int i = 0;
         while (i< wiseList.size()) {
-            view.printlnOut(wiseList.get(i).getOutFormat());
+            view.printlnOut(wiseList.get(i).toString());
             i++;
         }
 

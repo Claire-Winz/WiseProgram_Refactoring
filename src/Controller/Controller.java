@@ -5,7 +5,7 @@ import View.View;
 
 public class Controller {
 
-    View view = new View();
+    View view = View.getInstance();
 
     DAO dao = new DAO();
 
